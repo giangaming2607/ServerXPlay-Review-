@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ServerXPlay | Jasa Review Server CDID Roblox</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:#0b0f19;
+      color:#ffffff;
+    }
+    header{
+      background:linear-gradient(90deg,#1e3a8a,#2563eb);
+      padding:40px 20px;
+      text-align:center;
+    }
+    header h1{
+      font-size:36px;
+      margin:0;
+    }
+    header p{
+      margin-top:10px;
+      color:#dbeafe;
+    }
+    section{
+      padding:40px 20px;
+      max-width:900px;
+      margin:auto;
+    }
+    .card{
+      background:#111827;
+      border-radius:16px;
+      padding:20px;
+      margin-bottom:20px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.4);
+    }
+    .card h2{
+      color:#60a5fa;
+      margin-top:0;
+    }
+    ul{
+      padding-left:20px;
+    }
+    .price{
+      font-size:18px;
+      color:#34d399;
+    }
+    .btn{
+      display:inline-block;
+      margin-top:15px;
+      padding:12px 20px;
+      background:#2563eb;
+      color:white;
+      text-decoration:none;
+      border-radius:12px;
+      font-weight:bold;
+    }
+    .btn:hover{
+      background:#1d4ed8;
+    }
+    footer{
+      text-align:center;
+      padding:20px;
+      color:#9ca3af;
+      font-size:14px;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>ServerXPlay</h1>
+  <p>Jasa Review & Promosi Server CDID Roblox</p>
+</header><section>
+  <div class="card">
+    <h2>🎮 Tentang ServerXPlay</h2>
+    <p>ServerXPlay adalah jasa review server Roblox CDID secara jujur, detail, dan sinematik. Cocok untuk pemilik server yang ingin meningkatkan pemain dan kepercayaan komunitas.</p>
+  </div>  <div class="card">
+    <h2>📹 Layanan Review</h2>
+    <ul>
+      <li>Review gameplay server CDID</li>
+      <li>Cinematic video (mobile)</li>
+      <li>Penilaian fitur & sistem</li>
+      <li>Upload ke YouTube / TikTok</li>
+    </ul>
+  </div>  <div class="card">
+    <h2>💰 Harga Jasa</h2>
+    <p class="price">Rp5.000 / Review</p>
+    <ul>
+      <li>1x review server CDID</li>
+      <li>Video short / cinematic</li>
+      <li>Bukti struk otomatis</li>
+    </ul>
+  </div>  <div class="card">
+    <h2>📩 Cara Order (Otomatis)</h2>
+    <ol>
+      <li>Isi nama & link server</li>
+      <li>Salin bukti struk otomatis</li>
+      <li>Kirim otomatis ke WhatsApp Admin</li>
+    </ol><form onsubmit="kirimWA(); return false;">
+  <label>Nama Pembeli</label><br>
+  <input type="text" id="nama" required style="width:100%;padding:8px;margin-bottom:10px;" />
+
+  <label>Link Server Roblox</label><br>
+  <input type="text" id="server" required style="width:100%;padding:8px;margin-bottom:10px;" />
+
+  <button class="btn" type="submit">Bayar Rp5.000 & Kirim Bukti</button>
+</form>
+
+<script>
+  function kirimWA(){
+    const nama = document.getElementById('nama').value;
+    const server = document.getElementById('server').value;
+    const struk = `STRUK PEMBAYARAN
+
+Nama: ${nama} Server: ${server} Layanan: Review Server CDID Harga: Rp5.000 Status: MENUNGGU KONFIRMASI`;
+
+navigator.clipboard.writeText(struk);
+
+    const wa = `https://wa.link/drdsxr?text=${encodeURIComponent(struk)}`;
+    window.open(wa, '_blank');
+  }
+</script>
+
+  </div>
+</section><footer>
+  © 2026 ServerXPlay | Review Server CDID Roblox
+</footer></body>
+</html>
